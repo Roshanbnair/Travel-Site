@@ -32,13 +32,16 @@
   background-color: black;
   height: 2px;
   width: 0;
-  left: 8px;
+  left: 50%;
   bottom: 5px;
   transition: 0.7s;
+
 }
 .main-ul-nav li:hover:after {
-  width: 100%;
-  transition: ease-in-out 0.4s;
+  width: 90%;
+  left: 4px;
+  /* transform: translateX(-50%); */
+  transition: ease-in-out 0.3s;
 }
 
 .second-ul-nav li i {
@@ -47,7 +50,7 @@
 .second-ul-nav li:hover i {
   transform: scale(1.2);
   color: rgb(0, 0, 0);
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 header {
