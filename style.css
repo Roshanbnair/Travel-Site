@@ -2,22 +2,23 @@
   width: 100px;
   transition: 0.5s;
 }
-.nav-div-man:hover img {
+.nav-div-man img:hover  {
   transform: scale(1.1);
 }
 .nav-div-man {
-  opacity: 85%;
+  opacity: 90%;
   transition: 0.5s;
 }
 .main-ul-nav {
-  margin-right: 264px;
+  margin-right: 245px;
   font-family: "Alata", sans-serif;
+  letter-spacing: 2px;
 }
 .main-ul-nav li {
-  font-size: 12px;
+  font-size: 11px;
   transition: 0.7s;
   color: black;
-  margin-right: 10px;
+  margin-right: 5px;
   position: relative;
   font-weight: 900;
 }
@@ -234,6 +235,16 @@ p a {
 }
 .big-car-div {
   font-family: "Playball", cursive;
+
+}
+.big-car-div a{
+  text-decoration: none;
+  color: white;
+  transition: 0.7s;
+}
+.big-car-div a:hover{
+  transition: 0.4s;
+  color: rgb(12, 12, 222);
 }
 #about {
   background-color: whitesmoke;
@@ -286,7 +297,16 @@ p a {
 }
 .last-car-division {
   object-fit: cover;
-  font-family: "Alata", sans-serif;
+  font-family: "Playball", cursive;
+}
+.last-car-division a{
+  text-decoration: none;
+  color: white;
+  transition: 0.7s;
+}
+.last-car-division a:hover{
+  color: rgb(44, 44, 234);
+  transition: 0.4s;
 }
 #footer {
   background-color: whitesmoke;
@@ -329,4 +349,11 @@ p a {
 }
 .social-icons i {
   margin-left: 10px;
+  text-decoration: none;
+  color: black;
+  transition: 0.7s;
+}
+.social-icons a  :hover {
+  color: blue;
+  transition: 0.3s;
 }
