@@ -35,12 +35,10 @@
   left: 50%;
   bottom: 5px;
   transition: 0.7s;
-
 }
 .main-ul-nav li:hover:after {
   width: 90%;
   left: 4px;
-  /* transform: translateX(-50%); */
   transition: ease-in-out 0.3s;
 }
 
@@ -145,15 +143,14 @@ header p {
   border-radius: 50px;
   background-color: rgb(92, 94, 2);
   opacity: 85%;
-  transition: all 0.4s;
   overflow: hidden;
 }
 .card-div img {
-  transition: 0.4s;
+  transition: 0.7s;
 }
 .card-div:hover img {
-  transform: scale(1.15) rotate(-3deg);
-  transition: 0.4s;
+  transform: scale(1.25) rotate(-3deg);
+  transition: 0.3s;
   box-shadow: 10px 10px 20px black;
   cursor: pointer;
 }
