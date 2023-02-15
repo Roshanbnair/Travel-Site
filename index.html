@@ -10,6 +10,10 @@
     <!-- CSS LINKS -->
     <link rel="stylesheet" href="style.css" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
@@ -41,81 +45,72 @@
 
     <!-- NAVBAR - WHOLE -->
     <nav
-      class="opac nav navbar navbar-expand-lg bg-light bg-transparent fixed-top"
+      class="nav-div-man navbar fixed-top navbar-expand-lg navbar-dark p-md-3"
     >
-      <div class="container-fluid">
-        <a class="ms-5 navbar-brand" href="#">
-          <div class="logo-div">
-            <img height="100px" src="images/logo-black.webp" alt="" />
-          </div>
-        </a>
+      <div class="container">
+        <a href="index.html" class="navbar-brand"
+          ><img src="images/logo-black.webp" alt=""
+        /></a>
         <button
-          class="navbar-toggler"
           type="button"
+          class="navbar-toggler text-bg-dark rounded-3 text-light"
+          data-bs-target="#navbarNav"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation"
+          aria-label="Toggle Navbar"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="navbar-ul-class collapse navbar-collapse"
-          id="navbarSupportedContent"
-        >
-          <!-- NAVBAR - MAIN UL -->
-          <ul class="ul-class navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav main-ul-nav">
             <li class="nav-item">
-              <a class="nav-link active text-black" aria-current="page" href="#"
-                >EXPLORE</a
-              >
+              <a href="explore.html" class="nav-link text-dark fw-5">EXPLORE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-black" aria-current="page" href="#"
-                >PLACES</a
-              >
+              <a href="places.html" class="nav-link text-dark fw-5">PLACES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-black" aria-current="page" href="#"
-                >BLOG</a
-              >
+              <a href="blog.html" class="nav-link text-dark fw-5">BLOG</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-black" aria-current="page" href="#"
-                >ABOUT</a
-              >
+              <a href="about.html" class="nav-link text-dark fw-5">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-black" aria-current="page" href="#"
-                >RESOURCES</a
-              >
+              <a href="resources.html" class="nav-link text-dark fw-5">RESOURCES</a>
             </li>
           </ul>
-          <!-- NAVBAR - ICONS UL -->
-          <ul class="ul2-class navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-list">
-              <a class="nav-link text-black" aria-current="page" href=""
-                ><i class="bi bi-instagram"></i
+          <ul class="navbar-nav second-ul-nav">
+            <li class="nav-item">
+              <a
+                href="https://www.instagram.com/Anywhere_We_Roam/"
+                class="nav-link text-dark fw-5"
+                ><i class="fa-brands fa-instagram"></i
               ></a>
             </li>
-            <li class="nav-list">
-              <a class="nav-link text-black" aria-current="page" href=""
-                ><i class="bi bi-twitter"></i
+            <li class="nav-item">
+              <a
+                href="https://twitter.com/anywhereweroam"
+                class="nav-link text-dark fw-5"
+                ><i class="fa-brands fa-twitter"></i
               ></a>
             </li>
-            <li class="nav-list">
-              <a class="nav-link text-black" aria-current="page" href=""
-                ><i class="bi bi-facebook"></i
+            <li class="nav-item">
+              <a
+                href="https://www.facebook.com/AnywhereWeRoam/"
+                class="nav-link text-dark fw-5"
+                ><i class="fa-brands fa-facebook-f"></i
               ></a>
             </li>
-            <li class="nav-list">
-              <a class="nav-link text-black" aria-current="page" href="#search"
-                ><i
-                  data-bs-target="#exampleModal"
-                  data-bs-toggle="modal"
-                  class="bi bi-search"
-                ></i
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link text-dark fw-5"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                ><i class="fa-solid fa-magnifying-glass"></i
               ></a>
             </li>
           </ul>
@@ -222,7 +217,7 @@
           <span
             >Book some winter sun with a <br />
             spellbinding city break</span
-          >
+          ><br />
           <br />
           Escape to a whole new world with some of our favourite <br />
           city breaks in Europe. Discover Istanbul’s rich history, the <br />
@@ -236,16 +231,11 @@
         <div class="row text-center">
           <div class="col-md-4 mb-4">
             <div
-              class="card-div card text-bg-dark rounded-4"
-              style="
-                width: 17rem;
-                height: 22rem;
-                box-shadow: 15px 10px 30px darkgray;
-              "
+              class="card-div card text-bg-dark rounded-4 m-4"
+              style="box-shadow: 5px 5px 20px black"
             >
               <img
                 src="images/1st card.webp"
-                style="width: 17rem; height: 22rem"
                 class="rounded-4"
                 alt="No image"
               />
@@ -259,19 +249,10 @@
           </div>
           <div class="col-md-4 mb-4 text-center">
             <div
-              class="card-div card text-bg-dark rounded-4"
-              style="
-                width: 17rem;
-                height: 22rem;
-                box-shadow: 15px 10px 30px darkgray;
-              "
+              class="card-div card text-bg-dark rounded-4 m-4"
+              style="box-shadow: 5px 5px 20px black"
             >
-              <img
-                src="images/2nd card.jpg"
-                style="width: 17rem; height: 22rem"
-                class="rounded-4"
-                alt="No image"
-              />
+              <img src="images/2nd card.jpg" class="rounded-4" alt="No image" />
               <div class="card-overlay-div card-img-overlay">
                 <p class="card-text">
                   16 Essential Things To Do In Lisbon + Map
@@ -281,19 +262,10 @@
           </div>
           <div class="col-md-4 mb-4 text-center">
             <div
-              class="card-div card text-bg-dark rounded-4"
-              style="
-                width: 17rem;
-                height: 22rem;
-                box-shadow: 15px 10px 30px darkgray;
-              "
+              class="card-div card text-bg-dark rounded-4 m-4"
+              style="box-shadow: 5px 5px 20px black"
             >
-              <img
-                src="images/3rd card.jpg"
-                style="width: 17rem; height: 22rem"
-                class="rounded-4"
-                alt="No image"
-              />
+              <img src="images/3rd card.jpg" class="rounded-4" alt="No image" />
               <div class="card-overlay-div card-img-overlay">
                 <p class="card-text">
                   20 Unmissable Things To Do In İstanbul, Turkey
@@ -306,10 +278,12 @@
           <br /><br />
         </div>
       </div>
+
+      <!-- PLACES-->
       <div class="row mt-2">
         <div class="col-md-3"></div>
         <div class="accord col-md-6 text-center">
-          <a href="#">BRITAIN</a> <br />
+          <a href="places.html">PLACES</a> <br />
           <h4>
             Plan a mini-adventure with our <br />
             guides to the best of the UK
@@ -331,7 +305,7 @@
           <div class="col-md-5 mt-3">
             <div
               id="carouselExampleDark"
-              class="carousel carousel-fade carousel-dark slide"
+              class="carousel carousel-fade carousel-light slide"
               data-bs-ride="carousel"
             >
               <div class="carousel-indicators">
@@ -375,7 +349,7 @@
                     class="d-block w-100"
                     alt="..."
                   />
-                  <div class="carousel-caption">
+                  <div class="carousel-caption car">
                     <h5>London</h5>
                     <p>The famous London Bridge</p>
                   </div>
@@ -613,21 +587,22 @@
         <div class="row">
           <hr />
           <div class="blog-div col-md-12 text-center">
-            <span>BLOG</span>
+            <span><a href="blog.html">BLOG<a ></span>
             <h3>
               Find your way around Anywhere We <br />
               Roam
             </h3>
             <p>
-              Find travel tools on our <span>resources</span> page, learn more
+              Find travel tools on our <span><a href="resources.html">resources<a ></span> page, learn more
               about <br />
-              us on our <span>about</span> page and browse our content for tips
+              us on our <span><a href="about.html">about</a></span> page and browse our content for tips
               and <br />
               inspiration
             </p>
             <!-- BLOG - CAROUSEL -->
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-1"></div>
+              <div class="col-md-10">
                 <div
                   id="carouselExampleCaptions"
                   class="carousel slide"
@@ -674,7 +649,7 @@
                         class="d-block w-100"
                         alt="No image"
                       />
-                      <div class="carousel-caption">
+                      <div class="carousel-caption big-car-div">
                         <h5>ABOUT</h5>
                       </div>
                     </div>
@@ -685,7 +660,7 @@
                         class="d-block w-100"
                         alt="No image"
                       />
-                      <div class="carousel-caption">
+                      <div class="carousel-caption big-car-div">
                         <h5>PLACES</h5>
                       </div>
                     </div>
@@ -696,7 +671,7 @@
                         class="d-block w-100"
                         alt="No image"
                       />
-                      <div class="carousel-caption">
+                      <div class="carousel-caption big-car-div">
                         <h5>BLOG</h5>
                       </div>
                     </div>
@@ -707,7 +682,7 @@
                         class="d-block w-100"
                         alt="No image"
                       />
-                      <div class="carousel-caption">
+                      <div class="carousel-caption big-car-div">
                         <h5>EXPLORE</h5>
                       </div>
                     </div>
@@ -718,7 +693,7 @@
                         class="d-block w-100"
                         alt="No image"
                       />
-                      <div class="carousel-caption">
+                      <div class="carousel-caption big-car-div">
                         <h5>RESOURCES</h5>
                       </div>
                     </div>
@@ -749,6 +724,7 @@
                   </button>
                 </div>
               </div>
+              <div class="col-md-1"></div>
             </div>
           </div>
         </div>
@@ -761,7 +737,7 @@
         <div class="row">
           <hr />
           <div class="about-last col-md-12 text-center">
-            <span>EXPLORE</span>
+            <span><a href="explore.html">EXPLORE</a></span>
             <br />
             <h3>
               Explore all our travel adventures and <br />
@@ -770,9 +746,9 @@
             <br />
             <p>
               Find the travel experiences you’re looking for with our <br />
-              favourite<span> hiking</span> destinations, our top
-              <span>wildlife</span> encounters <br />
-              and some semi-<span>adventurous</span>
+              favourite<span><a href="hiking.html"> hiking</a></span> destinations, our top
+              <span><a href="wildlife.html">wildlife</a></span> encounters <br />
+              and some semi-<span><a href="adventurous.html">adventurous</a></span>
               outings.
             </p>
           </div>
@@ -953,24 +929,25 @@
 
             <p>
               The best way to keep up to date with the blog is to sign up to our
-              <span>newsletter</span> so we can
+              newsletter so we can
               <br />
               provide semi-regular updates directly to your inbox. We’ll never
               share your email address or <br />
               send unnecessary junk.
               <br />
               Follow us on
-              <span>Instagram</span> to keep up to date with our travels or send
+              <span><a href="https://www.instagram.com/Anywhere_We_Roam/">Instagram</a></span> to keep up to date with our travels or send
               us a message to say hi. <br />
               To find out a bit more about us, head over to our
-              <span>about</span> page, otherwise, just have a click <br />
-              around. Our<span> explore</span> page is a good place to start,
+              <span><a href="about.html">about</a></span> page, otherwise, just have a click <br />
+              around. Our<span> <a href="">explore</a></span> page is a good place to start,
               or, if you know where you’d like to go, <br />
-              check out our <span>places</span> page.
+              check out our <span><a href="places.html">places</a></span> page.
             </p>
           </div>
         </div>
       </div>
+
       <!-- ROW  -  FOOTER -->
       <div class="container">
         <div class="row footer-text-final text-end">
@@ -1009,13 +986,14 @@
           </div>
           <div class="col-md-6"></div>
           <div class="social-icons col-md-3 text-end">
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"><a href="https://www.instagram.com/Anywhere_We_Roam/"></a></i>
+            <i class="bi bi-twitter"><a href="https://twitter.com/anywhereweroam"></a></i>
+            <i class="bi bi-facebook"><a href="https://www.facebook.com/AnywhereWeRoam/"></a></i>
           </div>
         </div>
       </div>
     </section>
+
     <!-- JS - CODE -->
     <script>
       let nav = document.querySelector("nav");

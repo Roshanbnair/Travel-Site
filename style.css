@@ -1,32 +1,55 @@
-.logo-div img {
-  width: 100%;
-  height: 30px;
-  margin-bottom: 30px;
+.nav-div-man img {
+  width: 100px;
+  transition: 0.5s;
 }
-.logo-div {
-  width: 90px;
-  height: 30px;
-  margin-left: 85px;
+.nav-div-man:hover img {
+  transform: scale(1.1);
 }
-.navbar-ul-class {
-  font-size: 10px;
-  margin-left: 45px;
+.nav-div-man {
+  opacity: 85%;
+  transition: 0.5s;
 }
-.navbar-ul-class li {
-  margin-right: 10px;
-  font-weight: 400;
+.main-ul-nav {
+  margin-right: 264px;
   font-family: "Alata", sans-serif;
-  /* font-family: 'Alex Brush', cursive; */
-  /* font-family: 'Carter One', cursive; */
-  /* font-family: 'Kaushan Script', cursive; */
-  /* font-family: "Marcellus", serif; */
-  /* font-family: 'Marck Scr/ipt', cursive; */
-  /* font-family: 'Philosopher', sans-serif; */
-  /* font-family: 'Playball', cursive; */
-  /* font-family: 'Qwigley', cursive; */
-  /* font-famil/y: 'Tangerine', cursive; */
-  /* font-family: 'Vollkorn SC', serif; */
 }
+.main-ul-nav li {
+  font-size: 12px;
+  transition: 0.7s;
+  color: black;
+  margin-right: 10px;
+  position: relative;
+  font-weight: 900;
+}
+.main-ul-nav li:hover {
+  transition: ease-in-out 0.3s;
+  transform: scale(1.1);
+  color: black;
+}
+.main-ul-nav li:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 2px;
+  width: 0;
+  left: 8px;
+  bottom: 5px;
+  transition: 0.7s;
+}
+.main-ul-nav li:hover:after {
+  width: 100%;
+  transition: ease-in-out 0.4s;
+}
+
+.second-ul-nav li i {
+  transition: 0.7s;
+}
+.second-ul-nav li:hover i {
+  transform: scale(1.2);
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+
 header {
   height: 100vh;
   min-height: 400px;
@@ -36,10 +59,7 @@ header {
   background-attachment: fixed;
   margin-bottom: -49px;
 }
-.opac {
-  transition: 0.5s;
-  height: 45px;
-}
+
 header h1 {
   font-size: 25px;
   color: whitesmoke;
@@ -75,9 +95,7 @@ header p {
   /* font-family: 'Tangerine', cursive; */
   /* font-family: 'Vollkorn SC', serif; */
 }
-.ul2-class {
-  margin-right: 85px;
-}
+
 .modal-blurr {
   opacity: 90%;
 }
@@ -108,8 +126,8 @@ header p {
 }
 .spell span {
   font-size: 20px;
-  font-weight: 520;
-  font-family: "Alata", sans-serif;
+  font-weight: 720;
+  font-family: "Philosopher", sans-serif;
 }
 .spell {
   margin-top: 50px;
@@ -124,21 +142,24 @@ header p {
   border-radius: 50px;
   background-color: rgb(92, 94, 2);
   opacity: 85%;
-  transition: 0.5s;
-  height: 30px;
+  transition: all 0.4s;
+  overflow: hidden;
 }
-.card-div:hover {
+.card-div img {
+  transition: 0.4s;
+}
+.card-div:hover img {
+  transform: scale(1.15) rotate(-3deg);
+  transition: 0.4s;
+  box-shadow: 10px 10px 20px black;
   cursor: pointer;
-  opacity: 100%;
-  transition: 0.5s;
-  transform: translateY(-10px);
 }
 .card-overlay-div {
   font-size: 13px;
   font-family: "Alata", sans-serif;
 }
 .card-div img {
-  height: 23rem;
+  width: 100%;
 }
 .accord {
   margin-top: 70px;
@@ -151,12 +172,11 @@ header p {
   font-size: 11px;
   font-weight: 600;
   text-decoration: none;
-  color: rgb(53, 110, 243);
 }
 .accord h4 {
   font-size: 23px;
   color: black;
-  font-family: "Alata", sans-serif;
+  font-family: "Philosopher", sans-serif;
   font-weight: 100;
 }
 .accord p {
@@ -165,11 +185,12 @@ header p {
   color: black;
 }
 .acc-div {
-  font-family: "Alata", sans-serif;
-  font-size: 12px;
+  font-family: "Playball", cursive;
+  font-size: 15px;
 }
 .acc-head-div {
-  font-family: "Alata", sans-serif;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 1000;
   font-size: 15px;
 }
 .car-div img {
@@ -189,11 +210,18 @@ header p {
   font-weight: 500;
   font-family: "Alata", sans-serif;
 }
+span a {
+  text-decoration: none;
+}
+
+p a {
+  text-decoration: none;
+}
 .blog-div h3 {
   font-size: 22px;
   color: black;
   font-weight: 900;
-  font-family: "Alata", sans-serif;
+  font-family: "Philosopher", sans-serif;
   margin-bottom: 5px;
 }
 .blog-div p {
@@ -203,6 +231,9 @@ header p {
 .blog-car-div img {
   object-fit: cover;
   height: 450px;
+}
+.big-car-div {
+  font-family: "Playball", cursive;
 }
 #about {
   background-color: whitesmoke;
@@ -219,7 +250,7 @@ header p {
   font-size: 22px;
   color: black;
   font-weight: 100;
-  font-family: "Alata", sans-serif;
+  font-family: "Philosopher", sans-serif;
   margin-bottom: -20px;
 }
 .about-last p {
@@ -229,14 +260,26 @@ header p {
   margin-bottom: 40px;
 }
 .left-div-text {
-  font-family: "Alata", sans-serif;
-  font-size: 11px;
-  padding-top: 40px;
+  /* font-family: "Alata", sans-serif; */
+  /* font-family: "Alata", sans-serif; */
+  /* font-family: "Alex Brush", cursive; */
+  /* font-family: "Carter One", cursive; */
+  /* font-family: "Kaushan Script", cursive; */
+  /* font-family: "Marcellus", serif; */
+  /* font-family: "Marck Script", cursive; */
+  /* font-family: "Philosopher", sans-serif; */
+  font-family: "Playball", cursive;
+  /* font-family: 'Qwigley', cursive; */
+  /* font-family: 'Tangerine', cursive; */
+  /* font-family: 'Vollkorn SC', serif;  */
+  font-size: 15px;
+  padding-top: 43px;
 }
 .right-div-text {
-  font-family: "Alata", sans-serif;
-  font-size: 11px;
-  padding-top: 40px;
+  font-family: "Playball", cursive;
+  /* font-family: "Alata", sans-serif; */
+  font-size: 15px;
+  padding-top: 43px;
 }
 .last-car-division img {
   object-fit: cover;
@@ -263,7 +306,8 @@ header p {
   font-size: 22px;
   color: black;
   font-weight: 100;
-  font-family: "Alata", sans-serif;
+  font-family: "Philosopher", sans-serif;
+  /* font-family: 'Playball', cursive; */
 }
 .footer-division-text {
   line-height: 25px;
@@ -271,6 +315,7 @@ header p {
 }
 .footer-text-final {
   font-family: "Alata", sans-serif;
+
   font-size: 10px;
   line-height: 18px;
 }
