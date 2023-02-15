@@ -32,8 +32,8 @@ header {
   min-height: 400px;
   background-size: cover;
   background-image: url("images/SUCKE.avif");
-  objecttachment: fixed;-fit: cover;
-  background-at
+  object-fit: cover;
+  background-attachment: fixed;
   margin-bottom: -49px;
 }
 .opac {
@@ -84,7 +84,7 @@ header p {
 .explore {
   text-align: center;
   font-size: 12px;
-/* background-color: whitesmoke; */
+  /* background-color: whitesmoke; */
   font-family: "Alata", sans-serif;
 }
 .explore img {
@@ -94,7 +94,7 @@ header p {
 }
 .footer-explore {
   margin-top: 100px;
-/* background-color: whitesmoke; */
+  /* background-color: whitesmoke; */
   text-align: center;
   font-size: 10px;
   font-weight: 600;
@@ -113,7 +113,7 @@ header p {
 }
 .spell {
   margin-top: 50px;
-background-color: whitesmoke;
+  background-color: whitesmoke;
   font-size: 12px;
   color: black;
   font-family: "Alata", sans-serif;
@@ -133,19 +133,12 @@ background-color: whitesmoke;
   transition: 0.5s;
   transform: translateY(-10px);
 }
-.card-image {
+.card-overlay-div {
   font-size: 13px;
   font-family: "Alata", sans-serif;
-  /* font-family: "Alex Brush", cursive; */
-  /* font-family: "Carter One", cursive; */
-  /* font-family: "Kaushan Script", cursive; */
-  /* font-family: "Marcellus", serif; */
-  /* font-family: "Marck Script", cursive; */
-  /* font-family: "Philosopher", sans-serif; */
-  /* font-family: 'Playball', cursive; */
-  /* font-family: 'Qwigley', cursive; */
-  /* font-family: 'Tangerine', cursive; */
-  /* font-family: 'Vollkorn SC', serif; */
+}
+.card-div img {
+  height: 23rem;
 }
 .accord {
   margin-top: 70px;
@@ -158,7 +151,7 @@ background-color: whitesmoke;
   font-size: 11px;
   font-weight: 600;
   text-decoration: none;
-color: rgb(53, 110, 243);
+  color: rgb(53, 110, 243);
 }
 .accord h4 {
   font-size: 23px;
@@ -171,25 +164,27 @@ color: rgb(53, 110, 243);
   font-size: 12px;
   color: black;
 }
-.acc-div{
+.acc-div {
   font-family: "Alata", sans-serif;
   font-size: 12px;
 }
-.acc-head-div{
+.acc-head-div {
   font-family: "Alata", sans-serif;
   font-size: 15px;
 }
+.car-div img {
+  object-fit: cover;
+}
 .car-div {
-  font-size: 15px;
   object-fit: cover;
   font-family: "Alata", sans-serif;
 }
 #blog {
-background-color: whitesmoke;
+  background-color: whitesmoke;
   padding-bottom: 20px;
 }
 .blog-div span {
-color: rgb(53, 110, 243);
+  color: rgb(53, 110, 243);
   font-size: 11px;
   font-weight: 500;
   font-family: "Alata", sans-serif;
@@ -205,21 +200,17 @@ color: rgb(53, 110, 243);
   font-family: "Alata", sans-serif;
   font-size: 11px;
 }
-.trial {
-  height: 400px;
+.blog-car-div img {
+  object-fit: cover;
+  height: 450px;
 }
-.adipoli {
-  margin-bottom: 180px;
-  font-family: "Alata", sans-serif;
-  font-size: 20px;
-}
-#about{
-background-color: whitesmoke;
+#about {
+  background-color: whitesmoke;
   padding-bottom: 30px;
 }
 .about-last span {
   padding-top: -30px;
-color: rgb(53, 110, 243);
+  color: rgb(53, 110, 243);
   font-size: 11px;
   font-weight: 500;
   font-family: "Alata", sans-serif;
@@ -237,26 +228,29 @@ color: rgb(53, 110, 243);
   line-height: 22px;
   margin-bottom: 40px;
 }
-.left-div-text{
+.left-div-text {
   font-family: "Alata", sans-serif;
   font-size: 11px;
   padding-top: 40px;
 }
-.right-div-text{
+.right-div-text {
   font-family: "Alata", sans-serif;
   font-size: 11px;
   padding-top: 40px;
-} 
-.last-car-division img{
+}
+.last-car-division img {
   object-fit: cover;
 }
-#footer{
-
-background-color: whitesmoke;
+.last-car-division {
+  object-fit: cover;
+  font-family: "Alata", sans-serif;
+}
+#footer {
+  background-color: whitesmoke;
   padding-top: 10px;
 }
 .footer-division-text span {
-color: rgb(53, 110, 243);
+  color: rgb(53, 110, 243);
   font-size: 11px;
   font-weight: 500;
   font-family: "Alata", sans-serif;
@@ -270,25 +264,24 @@ color: rgb(53, 110, 243);
   color: black;
   font-weight: 100;
   font-family: "Alata", sans-serif;
-  
 }
-.footer-division-text{
+.footer-division-text {
   line-height: 25px;
   padding-bottom: 20px;
 }
-.footer-text-final{
+.footer-text-final {
   font-family: "Alata", sans-serif;
   font-size: 10px;
- line-height: 18px;
+  line-height: 18px;
 }
-.footer-text-final span{
+.footer-text-final span {
   font-weight: 900;
   font-size: 10px;
   line-height: 35px;
 }
-.copyright-text{
+.copyright-text {
   font-size: 10px;
 }
-.social-icons i{
+.social-icons i {
   margin-left: 10px;
 }
