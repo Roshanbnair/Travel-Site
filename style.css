@@ -2,7 +2,7 @@
   width: 100px;
   transition: 0.5s;
 }
-.nav-div-man img:hover  {
+.nav-div-man img:hover {
   transform: scale(1.1);
 }
 .nav-div-man {
@@ -235,14 +235,13 @@ p a {
 }
 .big-car-div {
   font-family: "Playball", cursive;
-
 }
-.big-car-div a{
+.big-car-div a {
   text-decoration: none;
   color: white;
   transition: 0.7s;
 }
-.big-car-div a:hover{
+.big-car-div a:hover {
   transition: 0.4s;
   color: rgb(12, 12, 222);
 }
@@ -299,18 +298,36 @@ p a {
   object-fit: cover;
   font-family: "Playball", cursive;
 }
-.last-car-division a{
+.last-car-division a {
   text-decoration: none;
   color: white;
   transition: 0.7s;
 }
-.last-car-division a:hover{
+.last-car-division a:hover {
   color: rgb(44, 44, 234);
   transition: 0.4s;
 }
 #footer {
   background-color: whitesmoke;
   padding-top: 10px;
+}
+.button-cu {
+  width: 142px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: yellow;
+  margin-top: 36px;
+  font-family: "Playball", cursive;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border: 1px solid rgb(236, 209, 3);
+  transition: 0.7s;
+ 
+}
+.button-cu:hover {
+  background-color: rgb(244, 230, 105);
+  transition: 0.3s;
+  scale: 1.05;
 }
 .footer-division-text span {
   color: rgb(53, 110, 243);
@@ -339,6 +356,15 @@ p a {
   font-size: 10px;
   line-height: 18px;
 }
+.footer-text-final a {
+  text-decoration: none;
+  color: black;
+  transition: 0.7s;
+}
+.footer-text-final a:hover {
+  color: blue;
+  transition: 0.3s;
+}
 .footer-text-final span {
   font-weight: 900;
   font-size: 10px;
@@ -346,6 +372,7 @@ p a {
 }
 .copyright-text {
   font-size: 10px;
+  /* margin-left: 10px; */
 }
 .social-icons i {
   margin-left: 10px;
@@ -353,7 +380,15 @@ p a {
   color: black;
   transition: 0.7s;
 }
-.social-icons a  :hover {
+.social-icons a :hover {
   color: blue;
   transition: 0.3s;
 }
+.coffee {
+  transition: 0.7s;
+}
+.coffee:hover{
+  scale: 1.05;
+
+}
+
